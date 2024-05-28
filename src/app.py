@@ -194,9 +194,11 @@ def update_graph(filtered_data, graph_type):
     return fig
 
 # Run the app
-if __name__ == '__main__':
-    app.run_server(debug=False)
+# if __name__ == '__main__':
+#     app.run_server(debug=False)
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
 
 # import dash
 # from dash import dcc, html, Input, Output
